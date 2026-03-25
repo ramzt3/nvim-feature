@@ -36,5 +36,6 @@ vim.pack.add({
 	"https://github.com/folke/todo-comments.nvim",
     "https://github.com/lukas-reineke/indent-blankline.nvim",
     "https://github.com/christoomey/vim-tmux-navigator",
+    "https://github.com/lewis6991/gitsigns.nvim",
 })
 

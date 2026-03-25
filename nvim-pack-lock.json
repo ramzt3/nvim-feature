@@ -24,6 +24,10 @@
       "rev": "9d720745d5c2fb563c0d86c17d77612a3519c506",
       "src": "https://github.com/romgrk/fzy-lua-native"
     },
+    "gitsigns.nvim": {
+      "rev": "0a80125bace82d82847d40bc2c38a22d62c6dc2d",
+      "src": "https://github.com/lewis6991/gitsigns.nvim"
+    },
     "gruvbox.nvim": {
       "rev": "334d5fd49fc8033f26408425366c66c6390c57bb",
       "src": "https://github.com/ellisonleao/gruvbox.nvim"
