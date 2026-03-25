@@ -16,6 +16,10 @@ require('mini.notify').setup({
 -- Close buffer and preserve window layout
 -- vim.keymap.set('n', '<leader>bc', '<cmd>lua pcall(MiniBufremove.delete)<cr>', {desc = 'Close buffer'})
 
+-- See :help MiniFiles.config
+local mini_files = require('mini.files')
+mini_files.setup({})
+
 -- See available pickers
 -- :help MiniPick.builtin
 -- :help MiniExtra.pickers
@@ -25,10 +29,6 @@ vim.keymap.set('n', '<leader>fd', '<cmd>Pick files<cr>', {desc = 'Search all fil
 vim.keymap.set('n', '<leader>fg', '<cmd>Pick grep_live<cr>', {desc = 'Search in project'})
 vim.keymap.set('n', '<leader>fx', '<cmd>Pick diagnostic<cr>', {desc = 'Search diagnostics'})
 vim.keymap.set('n', '<leader>fs', '<cmd>Pick buf_lines<cr>', {desc = 'Buffer local search'})
-
--- See :help MiniFiles.config
-local mini_files = require('mini.files')
-mini_files.setup({})
 
 -- Toggle file explorer
 -- See :help MiniFiles-navigation
