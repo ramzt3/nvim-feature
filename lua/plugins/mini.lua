@@ -16,7 +16,6 @@ require('mini.notify').setup({
 -- Close buffer and preserve window layout
 -- vim.keymap.set('n', '<leader>bc', '<cmd>lua pcall(MiniBufremove.delete)<cr>', {desc = 'Close buffer'})
 
-
 -- See available pickers
 -- :help MiniPick.builtin
 -- :help MiniExtra.pickers
@@ -61,3 +60,4 @@ require('mini.completion').setup({
     auto_setup = false,
   },
 })
+-- <C-h> and <C-l> to jump between dot

@@ -1,5 +1,4 @@
 local autopairs = require("nvim-autopairs") -- import nvim-autopairs
-
 -- setup autopairs
 autopairs.setup({
     check_ts = true, -- treesitter enabled
