@@ -1,18 +1,18 @@
 -- NOTE: `vim.pack` is an experimental feature.
 -- see :help vim.pack
 vim.pack.add({
-    -- {src = 'https://github.com/rose-pine/neovim'},
-    -- {src = 'https://github.com/scottmckendry/cyberdream.nvim'},
-    { src = 'https://github.com/folke/which-key.nvim' },
-    { src = 'https://github.com/VonHeikemen/ts-enable.nvim' },
-    { src = 'https://github.com/neovim/nvim-lspconfig' },
-    { src = 'https://github.com/nvim-mini/mini.nvim', version = 'main' },
+    -- {src = "https://github.com/rose-pine/neovim"},
+    -- {src = "https://github.com/scottmckendry/cyberdream.nvim"},
+    { src = "https://github.com/folke/which-key.nvim" },
+    { src = "https://github.com/VonHeikemen/ts-enable.nvim" },
+    { src = "https://github.com/neovim/nvim-lspconfig" },
+    { src = "https://github.com/nvim-mini/mini.nvim", version = "main" },
     {
-        src = 'https://github.com/nvim-treesitter/nvim-treesitter',
-        version = 'main',
+        src = "https://github.com/nvim-treesitter/nvim-treesitter",
+        version = "main",
         data = {
             on_update = function()
-                vim.cmd('TSUpdate')
+                vim.cmd("TSUpdate")
             end,
         },
     },
