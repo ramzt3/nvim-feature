@@ -4,7 +4,8 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 -- quit nvim
-vim.keymap.set('n', '<leader>qq', vim.cmd.qa)
+vim.keymap.set('n', '<leader>qq', ":qa!<CR>", { desc = "Force Quit All" })
+vim.keymap.set('n', '<leader>qr', ":restart<CR>", { desc = "Restart" })
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", { desc = "moves lines down in visual selection" })
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "moves lines up in visual selection" })
