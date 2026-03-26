@@ -38,9 +38,9 @@ vim.pack.add({
     { src = "https://github.com/christoomey/vim-tmux-navigator" },
     { src = "https://github.com/lewis6991/gitsigns.nvim" },
     { src = "https://github.com/nvim-lua/plenary.nvim" },
-    { 
+    {
         src = "https://github.com/ThePrimeagen/harpoon",
         version = "harpoon2",
     },
+    { src = "https://github.com/Wansmer/treesj" },
 })
-
