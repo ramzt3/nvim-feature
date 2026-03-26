@@ -20,6 +20,10 @@
       "rev": "7fa433a83118a70fe24c1ce88d5f0bd3453c0970",
       "src": "https://github.com/j-hui/fidget.nvim"
     },
+    "flash.nvim": {
+      "rev": "fcea7ff883235d9024dc41e638f164a450c14ca2",
+      "src": "https://github.com/folke/flash.nvim"
+    },
     "fzy-lua-native": {
       "rev": "9d720745d5c2fb563c0d86c17d77612a3519c506",
       "src": "https://github.com/romgrk/fzy-lua-native"

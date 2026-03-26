@@ -43,4 +43,5 @@ vim.pack.add({
         version = "harpoon2",
     },
     { src = "https://github.com/Wansmer/treesj" },
+    { src = "https://github.com/folke/flash.nvim" },
 })
