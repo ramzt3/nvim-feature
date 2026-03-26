@@ -41,4 +41,6 @@ vim.lsp.config('lua_ls', {
 
 vim.lsp.enable({
 	"svelte",
+	"laravel_ls",
+	"intelephense",
 })
