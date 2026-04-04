@@ -78,6 +78,9 @@ vim.keymap.set("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size" })
 -- close current split window
 vim.keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" })
 
+-- Map <C-c> to <Esc> in insert, normal, and visual modes
+vim.keymap.set({'n', 'v', 'i'}, '<C-c>', '<Esc>', {noremap = true, silent = true})
+
 -- Copy filepath to the clipboard
 vim.keymap.set("n", "<leader>fp", function()
   local filePath = vim.fn.expand("%:~") -- Gets the file path relative to the home directory

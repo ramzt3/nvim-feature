@@ -1,4 +1,6 @@
-require("ibl").setup()
+require("ibl").setup({
+    scope = { enabled = true },
+})
 require("treesj").setup()
 
 -- replace treesj <leader>s

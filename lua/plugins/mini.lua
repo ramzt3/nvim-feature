@@ -63,3 +63,4 @@ require('mini.completion').setup({
 -- <C-h> and <C-l> to jump between dot
 
 require('mini.surround').setup({})
+require('mini.indentscope').setup({})
