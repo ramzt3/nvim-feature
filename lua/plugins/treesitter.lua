@@ -57,6 +57,6 @@ vim.g.ts_enable = {
   parsers = ts_parsers,
   auto_install = true,
   highlights = true,
-  -- indents = true,
+  indents = true,
 }
 
